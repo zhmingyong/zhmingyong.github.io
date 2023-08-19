@@ -1,14 +1,15 @@
 ---
-title: "如何释放Linux中的缓存"
-subtitle: "缓存释放"
-layout: post
-author: "zhmingyong"
-header-style: text
-hidden: false
+layout:     post
+title:      如何释放Linux中的缓存
+subtitle:   Linux缓存占用高如何清除
+date:       2023-08-19
+author:     zhmingyong
+<!-- header-img: img/post-bg-debug.png -->
+catalog: true
 tags:
-  - 笔记
-  - Linux
-  - 缓存释放
+    - Linux
+    - 缓存
+    - 缓存释放
 ---
 
 # 如何释放Linux中的缓存

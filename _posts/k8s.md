@@ -1,13 +1,14 @@
 ---
-title: "K8S部署"
-subtitle: "K8S"
-layout: post
-author: "zhmingyong"
-header-style: text
-hidden: true
+layout:     post
+title:      K8S部署
+subtitle:   K8S
+date:       2023-08-19
+author:     zhmingyong
+<!-- header-img: img/post-bg-debug.png -->
+catalog: true
 tags:
-  - 笔记
-  - k8s
+    - Linux
+    - k8s
 ---
 
 #### 1.操作系统环境配置
