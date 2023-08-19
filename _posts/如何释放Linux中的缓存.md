@@ -1,3 +1,16 @@
+---
+title: "如何释放Linux中的缓存"
+subtitle: "缓存释放"
+layout: post
+author: "zhmingyong"
+header-style: text
+hidden: true
+tags:
+  - 笔记
+  - Linux
+  - 缓存释放
+---
+
 # 如何释放Linux中的缓存
 
 ### 一、缓存的定义
