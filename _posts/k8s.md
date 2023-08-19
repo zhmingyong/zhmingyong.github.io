@@ -1,3 +1,15 @@
+---
+title: "K8S部署"
+subtitle: "K8S"
+layout: post
+author: "zhmingyong"
+header-style: text
+hidden: true
+tags:
+  - 笔记
+  - k8s
+---
+
 #### 1.操作系统环境配置
 
 * 修改主机名添加hosts解析
