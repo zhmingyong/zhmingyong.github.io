@@ -4,7 +4,7 @@ subtitle: "缓存释放"
 layout: post
 author: "zhmingyong"
 header-style: text
-hidden: true
+hidden: false
 tags:
   - 笔记
   - Linux
