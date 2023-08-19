@@ -4,7 +4,7 @@ title:      如何释放Linux中的缓存
 subtitle:   Linux缓存占用高如何清除
 date:       2023-08-19
 author:     zhmingyong
-<!-- header-img: img/post-bg-debug.png -->
+header-img: img/post-bg-debug.png
 catalog: true
 tags:
     - Linux

@@ -4,7 +4,7 @@ title:      K8S部署
 subtitle:   K8S
 date:       2023-08-19
 author:     zhmingyong
-<!-- header-img: img/post-bg-debug.png -->
+# header-img: img/post-bg-debug.png
 catalog: true
 tags:
     - Linux
