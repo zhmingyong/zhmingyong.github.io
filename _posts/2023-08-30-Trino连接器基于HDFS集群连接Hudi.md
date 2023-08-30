@@ -118,3 +118,15 @@ hive.config.resources=/opt/hadoop/etc/hadoop/core-site.xml,/opt/hadoop/etc/hadoo
 ```
 
 重启trino后再次通过DBeaver连接，可以正常读取hudi数据
+
+### 参考trino官网hive相关描述
+HDFS configuration#
+For basic setups, Trino configures the HDFS client automatically and does not require any configuration files. In some cases, such as when using federated HDFS or NameNode high availability, it is necessary to specify additional HDFS client options in order to access your HDFS cluster. To do so, add the hive.config.resources property to reference your HDFS config files:
+
+```shell
+hive.config.resources=/etc/hadoop/conf/core-site.xml,/etc/hadoop/conf/hdfs-site.xml
+```
+Only specify additional configuration files if necessary for your setup. We recommend reducing the configuration files to have the minimum set of required properties, as additional properties may cause problems.
+
+The configuration files must exist on all Trino nodes. If you are referencing existing Hadoop config files, make sure to copy them to any Trino nodes that are not running Hadoop.
+
