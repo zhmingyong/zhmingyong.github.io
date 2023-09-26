@@ -145,7 +145,7 @@ Parse PROTO_FILES and generate output based on the options given:
 然后再重新尝试打包Hudi项目，主要将hadoop、spark版本指定为cdh版本，重新编译：
 
 ```bash
-mvn clean package -DskipTests -Dspark3.2 -Dflink1.14 -Dscala-2.12 -Dhadoop.version=3.2.4
+mvn clean package -DskipTests -Dspark3.2 -Dflink1.14 -Dscala-2.12 -Drat.skip=true -Dhadoop.version=3.2.4
 ```
 
 ```bash
