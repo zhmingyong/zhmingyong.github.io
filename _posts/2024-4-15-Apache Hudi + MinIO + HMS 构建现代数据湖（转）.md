@@ -4,7 +4,7 @@ title:      Apache Hudi + MinIO + HMS 构建现代数据湖（转）
 subtitle:   Apache Hudi + MinIO + HMS 构建数据湖
 date:       2024-4-15
 author:     zhmingyong
-header-img: img/hudi-20240415/hudi-20240415.png
+header-img: img/post-bg-debug.png
 catalog: true
 tags:
     - Hudi
@@ -16,6 +16,7 @@ tags:
 [转载链接] https://mp.weixin.qq.com/s/rCJ6XikkU03VvuLj3eFoGQ
 
 
+![](https://zhmingyong.github.io/img/hudi-20240415/hudi-20240415.png)
 Apache Hudi 已成为管理现代数据湖的领先开放表格式之一，直接在现代数据湖中提供核心仓库和数据库功能。这在很大程度上是由于 Hudi 提供了高级功能，例如表、事务、更新插入/删除、高级索引、流式摄取服务、数据集群/压缩优化和并发控制。
 
 我们已经探索了[1] MinIO 和 Hudi 如何协同工作来构建现代数据湖。这篇博文旨在以这些知识为基础，提供一种利用 Hive Metastore 服务 (HMS[2]) 的 Hudi 和 MinIO 的替代实现。部分源于 Hadoop 生态系统的起源故事，Hudi 的许多大规模数据实现仍然利用 HMS。通常从遗留系统的迁移故事涉及某种程度的混合，因为要利用所涉及的所有产品中最好的产品来取得成功。
