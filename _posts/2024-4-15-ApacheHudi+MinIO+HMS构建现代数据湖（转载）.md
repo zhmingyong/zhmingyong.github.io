@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Apache Hudi +MinIO + HMS构建现代数据湖（转载）"
+title:      ApacheHudi+MinIO+HMS构建现代数据湖（转载）
 subtitle:   Hudi+MinIO+HMS构建数据湖
 date:       2024-04-15
 author:     zhmingyong
