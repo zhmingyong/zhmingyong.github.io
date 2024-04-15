@@ -4,7 +4,7 @@ title:      Apache Hudi + MinIO + HMS 构建现代数据湖（转）
 subtitle:   Apache Hudi + MinIO + HMS 构建数据湖
 date:       2024-4-15
 author:     zhmingyong
-header-img: img/hudi/hudi-20240415.png
+header-img: img/hudi-20240415/hudi-20240415.png
 catalog: true
 tags:
     - Hudi
@@ -12,7 +12,7 @@ tags:
 	  - HMS
 ---
 
-# Apache Hudi + MinIO + HMS 构建现代数据湖（转）
+### Apache Hudi + MinIO + HMS 构建现代数据湖（转）
 [转载链接] https://mp.weixin.qq.com/s/rCJ6XikkU03VvuLj3eFoGQ
 
 
