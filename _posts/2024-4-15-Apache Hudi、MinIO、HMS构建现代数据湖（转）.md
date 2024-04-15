@@ -8,8 +8,8 @@ header-img: img/post-bg-universe.jpg
 catalog: true
 tags:
     - Hudi
-    - MinIO
-	  - HMS
+    - Minio
+    - 数据湖
 ---
 
 ### Apache Hudi + MinIO + HMS 构建现代数据湖（转）
