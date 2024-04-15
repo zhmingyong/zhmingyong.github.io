@@ -9,7 +9,7 @@ catalog: true
 tags:
     - Hudi
     - MinIO
-	- HMS
+	  - HMS
 ---
 
 > Apache Hudi +MinIO + HMS构建现代数据湖（转载）
