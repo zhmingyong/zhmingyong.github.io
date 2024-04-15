@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      Apache Hudi +MinIO + HMS构建现代数据湖
-subtitle:   Apache Hudi +MinIO + HMS构建现代数据湖
+title:      "Apache Hudi +MinIO + HMS构建现代数据湖（转载）"
+subtitle:   Hudi+MinIO+HMS构建数据湖
 date:       2024-04-15
 author:     zhmingyong
 header-img: img/hudi/hudi-20240415.png
@@ -12,9 +12,8 @@ tags:
 	  - HMS
 ---
 
-> Apache Hudi +MinIO + HMS构建现代数据湖（转载）
+原文链接： https://mp.weixin.qq.com/s/rCJ6XikkU03VvuLj3eFoGQ
 
-### 原文链接：https://mp.weixin.qq.com/s/rCJ6XikkU03VvuLj3eFoGQ
 
 Apache Hudi 已成为管理现代数据湖的领先开放表格式之一，直接在现代数据湖中提供核心仓库和数据库功能。这在很大程度上是由于 Hudi 提供了高级功能，例如表、事务、更新插入/删除、高级索引、流式摄取服务、数据集群/压缩优化和并发控制。
 
