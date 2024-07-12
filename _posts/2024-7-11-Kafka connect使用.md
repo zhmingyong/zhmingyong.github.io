@@ -277,4 +277,45 @@ curl -L http://192.168.11.123:8083/connectors/test-sink/topics
 }
 ```
 
+### createConnector
+```shell
+curl -i -X POST -H "Accept:application/json" -H "Content-Type:application/json" http://192.168.11.123:8083/connectors -d 
+{
+    "config": {
+        "connector.class": "io.confluent.connect.jdbc.JdbcSinkConnector",
+        "connection.url": "jdbc:mysql://192.168.11.91:30802/test_kafka_connect",
+        "connection.password": "root",
+        "connection.user": "root",
+        "tasks.max": "1",
+        "topics": "connect-jdbc-monitor_warn_t_alert",
+        "table.name.format": "t_alert",
+        "name": "mysql-sink",
+        "auto.create": "true"
+    },
+    "name": "mysql-sink"
+}
+
+{
+    "name": "mysql-sink",
+    "config": {
+        "connector.class": "io.confluent.connect.jdbc.JdbcSinkConnector",
+        "connection.url": "jdbc:mysql://192.168.11.91:30802/test_kafka_connect",
+        "connection.password": "root",
+        "connection.user": "root",
+        "tasks.max": "1",
+        "topics": "connect-jdbc-monitor_warn_t_alert",
+        "table.name.format": "t_alert",
+        "name": "mysql-sink",
+        "auto.create": "true"
+    },
+    "tasks": [
+        {
+            "connector": "mysql-sink",
+            "task": 0
+        }
+    ],
+    "type": "sink"
+}
+```
+
 还有很多管理接口期待探索，如`createConnector`,`destroyConnector`,`putConnectorConfig`,`restartConnector`等
