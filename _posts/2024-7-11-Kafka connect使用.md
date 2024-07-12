@@ -16,7 +16,7 @@ tags:
 
 Kafka Connect 是一个用于在 Apache Kafka® 和其他数据系统之间可扩展且可靠地流式传输数据的工具。通过将数据移入和移出 Kafka 进行标准化，使得快速定义连接器以在 Kafka 中传输大型数据集变得简单，可以更轻松地构建大规模的实时数据管道。
 
-![Kafka connect介绍](./img/kafkaconnect/image-1.png)
+![Kafka connect介绍](https://zhmingyong.github.io/img/kafkaconnect/image-1.png)
 
 `Kafka 连接器通常用来构建 data pipeline，一般有两种使用场景`：
 
@@ -28,7 +28,7 @@ Kafka Connect 是一个用于在 Apache Kafka® 和其他数据系统之间可�
 Source Connect： 负责将数据导入 Kafka。
 Sink Connect： 负责将数据从 Kafka 系统中导出到目标表。
 
-![Kafka Connect](./img/kafkaconnect/image-2.png)
+![Kafka Connect](https://zhmingyong.github.io/img/kafkaconnect/image-2.png)
 
 # Kafka Connect 使用
 
